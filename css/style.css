@@ -1,0 +1,157 @@
+body {
+	font-family: "verdana";
+	overflow-x: hidden;
+}
+
+.topo {
+	border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    background-color: darkgrey;
+    text-align: center;
+}
+
+.modal {
+	width: 400px;
+    margin-left: 50%;
+    left: -200px;
+    padding: 10px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #ffffff;
+    top: 25%;
+    display: none;
+    z-index: 2;
+}
+
+.modal.success {
+    text-align: center;
+}
+
+.modal.success span, .modal.confirm span {
+	width: 100%;
+    display: block;
+    margin: 10px 0 20px 0;
+}
+
+.modal.confirm div.botoes {
+	text-align: right;
+}
+
+ button.bt.cancelar {
+ 	color: #000000;
+ }
+
+.row {
+	margin-bottom: 4px;
+}
+
+.row input[type="text"], .row input[type="number"] {
+	border-radius: 5px;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 5px;
+}
+
+.botoes td {
+	padding-top: 25px;
+}
+
+.botoes td:nth-child(1) {
+	text-align: start;
+}
+
+.botoes td:nth-child(2) {
+	text-align: end;
+}
+
+input[type="submit"] {
+	background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.botoes input[type="button"], .botoes input[type="submit"] {
+	text-transform: uppercase;
+	border-radius: 5px;
+	height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.td_str {
+	text-align: left;
+	padding-left: 10px;
+}
+
+.td_int {
+	text-align: right;
+	padding-right: 10px;
+}
+
+.td_botoes {
+	text-align: center;
+}
+
+div.table {
+	margin-bottom: 100px;
+}
+
+.table_dados {
+	width: 90%;
+    margin-left: 5%;
+}
+
+.table_dados tbody tr:nth-child(2n+1) {
+	background-color: #dadada;
+}
+
+button.bt {
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 4px;
+    color: #FFF;
+}
+
+button.bt.delete {
+	background-color: #f94545;
+}
+
+button.bt.edit {
+    background-color: #5fba7d;
+}
+button.bt.adicionar {
+    background-color: #5fba7d;
+}
+
+div.footer {
+    border-top: 1px solid;
+    width: 100%;
+    padding: 15px 0px;
+    position: fixed;
+    background: #f1f1f1;
+    text-align: center;
+    bottom: 0;
+    display: block;
+}
+
+div.footer span {
+	width: 100%;
+    display: block;
+}
+
+div.footer button {
+    margin-top: 10px;
+}
+
+div.black_layer {
+	width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.5;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0px;
+}
